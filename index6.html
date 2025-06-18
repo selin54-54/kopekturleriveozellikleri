@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Köpek Türleri</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #4CAF50;
+color: white;
+padding: 20px;
+text-align: center;
+}
+dog-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+dog-card {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+overflow: hidden;
+transition: transform 0.3s;
+}
+dog-card:hover {
+transform: scale(1.03);
+}
+dog-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+dog-card h2 {
+color: #4CAF50;
+padding: 10px;
+}
+dog-card p {
+padding: 0 10px 15px 10px;
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1>Köpek Türleri ve Özellikleri</h1>
+</header>
+<div class="dog-card">
+<img src="doberman.jpg" alt="Doberman">
+<h2>Doberman</h2>
+<p>Kökeni Almanya'ya dayanmaktadır.Şık kürkü, atletik yapıları ve muhteşem görünümleriyle bu köpekler aristokrat gibi görünür. 
+Polis ve askeri işlerinde, köpek sporlarında, aile koruyucuları olarak ve rehber köpek olarak iyi performans gösteren son derece enerjik ve akıllı köpeklerdir.
+Mükemmel fiziki yapısı ve keskin zekâsı ile hayvan severlerin ilgisini çekerler. Atletik yapılarıyla bilinen erkek Dobermanlar genellikle 68-72 cm arasında, dişiler ise 63-68 cm arasında omuz yüksekliğine sahiptir. Kısa, parlak tüylü ve sıkı bir vücuda oturan ciltleri vardır.
+Renkleri genellikle siyah ve pas rengi ya da kırmızı ve pas rengi olarak görülür. Uzun bir kafa yapısına ve güçlü dişlere sahiptirler. Gözler genellikle koyu renklidir ve enerjik bir ifadeye sahiptir. Doberman'ın kuyruğu genellikle kısa ve düzdür.
+Doğaları gereği vahşidirler. Kontrolsuz bırakıldıklarında dikkat çekmeye çalışabilirler.Ortalama yaşam süresi 10 ila 12 yıldır.</p>
+</div>
+</body>
+</html>

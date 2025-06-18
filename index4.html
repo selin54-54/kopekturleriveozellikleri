@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Köpek Türleri</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #4CAF50;
+color: white;
+padding: 20px;
+text-align: center;
+}
+dog-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+dog-card {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+overflow: hidden;
+transition: transform 0.3s;
+}
+dog-card:hover {
+transform: scale(1.03);
+}
+dog-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+dog-card h2 {
+color: #4CAF50;
+padding: 10px;
+}
+dog-card p {
+padding: 0 10px 15px 10px;
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1>Köpek Türleri ve Özellikleri</h1>
+</header>
+<div class="dog-card">
+<img src="Chihuahua.jpg" alt="Chihuahua">
+<h2>Chihuahua</h2>
+<p>Kökeni Meksika'ya dayanmaktadır.Dünyanın en küçük köpek ırklarından biri olan Chihuahua (Çivava) köpeklerinin,yerden yükseklikleri ancak 13 santimetreye ulaşabilir. 
+Bu köpekler, diğer küçük köpek ırkları gibi çok enerjik ve gürültücü hayvanlardır.Genellikle 1 ila 3 kg arasında olan ağırlıkları, onları hafif ve taşınabilir kılar.
+Hafiflik, sahiplerinin bu sevimli dostlarını rahatlıkla yanlarında taşımasına olanak tanır.
+Chihuahua’nın parlak, düz veya dalgalı tüyleri krem, kahverengi, siyah ve çikolata renklerindedir.
+Mizaç Sahiplerine çok bağlı hale gelebilirler ve yabancılara ve özellikle onlara alışkın değillerse çocukların yanında çekingen olabilirler.
+Ortalama yaşam süresi 12 ila 20 yıldır</p>
+</div>
+</body>
+</html>

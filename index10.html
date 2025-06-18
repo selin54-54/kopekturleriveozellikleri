@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Köpek Türleri</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #4CAF50;
+color: white;
+padding: 20px;
+text-align: center;
+}
+dog-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+dog-card {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+overflow: hidden;
+transition: transform 0.3s;
+}
+dog-card:hover {
+transform: scale(1.03);
+}
+dog-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+dog-card h2 {
+color: #4CAF50;
+padding: 10px;
+}
+dog-card p {
+padding: 0 10px 15px 10px;
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1>Köpek Türleri ve Özellikleri</h1>
+</header>
+<div class="dog-card">
+<img src=beagle.jpg" alt="Beagle">
+<h2>Beagle</h2>
+<p>Anavatanı İngiltere'dir.Küçük Irk köpek sınıfındadır.Av kökenli bir cinstir.Yuvarlak uzun kulakları, kare ağızları vardır.Ortalama ağırlıkları 11-15 kg arasındadır.cinsinin sert ve kısa tüy yapısı bulunmaktadır. Cinsinin sert ve kısa tüy yapısı bulunmaktadır. Generlikle üç renk ( Siyah-Kahve-Beyaz ) yapısına sahiptir.Eğitimi zordur ve kazmayı seven hayvandır.Aynı zamanda yüksek sesle havlarlar. Sahipleriyle güçlü bir bağ kuran Beagle’lar, yalnız kalmaktan pek hoşlanmazlar. Uzun süre yalnız bırakıldıklarında ayrılık kaygısı yaşayabilir ve havlama, eşyaları kemirme gibi davranışlar sergileyebilirler. Ortalama yaşam süresi 10 ila 15 yıldır.</p>
+</div>
+</body>
+</html>
